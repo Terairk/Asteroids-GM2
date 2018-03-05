@@ -8,3 +8,5 @@ spawn_decrease = 0;
 time_since = 300;
 definitive = 0;
 
+powerup1_countdown = irandom_range(1200,1800);
+

@@ -8,3 +8,5 @@ countdown = shoot_speed;
 global.score_x = 32;
 global.score_y = 32;
 deathcountdown = 360;
+can_get_powerup = 1;
+countdown_powerup = 120;

@@ -8,6 +8,7 @@ if(countdown <= 0)
 }
 countdown -= 1;
 
+
 switch (global.lifes)
 {
 	case  5:
@@ -39,11 +40,31 @@ switch (global.lifes)
 if(global.lifes <= 0)
 {
 	obj_player.image_index = 0;
-	deathcountdown -= 5;
+	deathcountdown -= 15;
 	speed -= 0.01;
 	if(deathcountdown <= 0)
 	{
 		instance_destroy(id);
 	}
 }
+
+
+if (can_get_powerup == 0)
+{
+	countdown_powerup -= 1;
+	if(countdown_powerup <= 0)
+	{
+		can_get_powerup = 1;
+	}
+}
+
+
+
+
+
+
+
+
+
+
 

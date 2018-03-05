@@ -37,7 +37,6 @@ if (spawnAsteroidInterval <= 0)
 			instance_create_depth(global.bottom_x, global.bottom_y, 0, obj_harmless_checker);
 			
 			break;
-		ß®
 			
 		case 3:
 			
@@ -49,6 +48,13 @@ if (spawnAsteroidInterval <= 0)
 	spawnAsteroidInterval = 300;
 	definitive = time_since;
 	time_since = 0;
-	spawn_step += 0.05;
+	spawn_step += 0.035;
+}
+
+powerup1_countdown -= 1;
+if (powerup1_countdown <= 0)
+{
+	instance_create_depth(irandom_range(124,924), irandom_range(68,668), 0 , obj_powerup_0);
+	powerup1_countdown = irandom_range(1200,1800);
 }
 
