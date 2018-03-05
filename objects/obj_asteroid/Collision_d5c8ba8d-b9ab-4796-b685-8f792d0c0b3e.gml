@@ -4,4 +4,4 @@
 can_display_score = 1;
 instance_destroy(other);
 instance_destroy(id, );
-global.points += 1;
+global.points += 50;

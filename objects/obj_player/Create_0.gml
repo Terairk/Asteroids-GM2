@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write you 
-shoot_speed = 18;
+shoot_speed = 30;
 image_index = 5;
 global.points = 0;
 global.lifes = 5;

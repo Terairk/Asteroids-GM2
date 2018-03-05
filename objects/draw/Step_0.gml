@@ -55,6 +55,6 @@ powerup1_countdown -= 1;
 if (powerup1_countdown <= 0)
 {
 	instance_create_depth(irandom_range(124,924), irandom_range(68,668), 0 , obj_powerup_0);
-	powerup1_countdown = irandom_range(1200,1800);
+	powerup1_countdown = irandom_range(2400,3600);
 }
 
