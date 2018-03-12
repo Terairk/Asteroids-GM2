@@ -191,6 +191,25 @@
             }
         },
         {
+            "Key": "38e273d0-4c4f-461e-88ec-f58d5f736202",
+            "Value": {
+                "id": "3b5aa98c-9721-4330-ab63-c2bef7b907d5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_lives\/obj_lives.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3e44640b-86dc-480e-a51d-fe253656b520",
             "Value": {
                 "id": "74250e96-04b6-41ff-a933-e6995bdf8026",
@@ -226,6 +245,25 @@
                 ],
                 "resourcePath": "views\/42d1fef0-24c5-41e1-87e2-03b3ae007340.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "466ea4b8-baa1-4b02-a909-c923e88fc497",
+            "Value": {
+                "id": "c9afeb0d-dc98-4a8d-b836-f2b28f7dde3d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/shooting\/shooting.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -495,6 +533,25 @@
             }
         },
         {
+            "Key": "cd9e1b0a-739c-45cd-b08f-dece37599a9b",
+            "Value": {
+                "id": "23c55009-f152-4828-8443-021c53c6208d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/on_Death\/on_Death.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "ceecf51d-e64e-4ed2-923e-ecff80be8dde",
             "Value": {
                 "id": "2656b470-63c8-4877-a4e8-baeb6ec57be7",
@@ -628,9 +685,28 @@
             }
         },
         {
+            "Key": "ec5d510e-97fd-4269-a4e1-bef729637dea",
+            "Value": {
+                "id": "52d69350-ac57-4880-a9ae-0bee4937ed1f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/livesSpaceship\/livesSpaceship.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
-                "id": "13081097-692d-45ca-ba5b-3fecf6561b79",
+                "id": "889d4939-2f58-4849-8a15-670743d79ad0",
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
@@ -644,6 +720,25 @@
                 ],
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f9507f27-5073-47ec-9cd6-124882d69614",
+            "Value": {
+                "id": "fbc14a99-6500-4e88-9e96-3b8a512dc3f7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/asteroid_bullet\/asteroid_bullet.yy",
+                "resourceType": "GMSound"
             }
         },
         {
