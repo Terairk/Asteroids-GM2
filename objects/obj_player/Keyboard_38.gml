@@ -1,6 +1,9 @@
-/// @description Insert description here
-// You can write your code in this editor
+
 if (global.cantilt == 1) {
-motion_add(global.p_direction, 0.2);
+motion_add(image_angle+90, 0.18);
+obj_player.image_index = 1;
+up_key_pressed = 1;
+
+
 
 }

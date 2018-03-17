@@ -1,14 +1,16 @@
 /// @description Insert description here
 // You can write your code in this editor
-spawn_mult = 60;
-kow = 1;
-spawnAsteroidInterval =  5*60;
-spawn_step = 0.01;
-spawn_decrease = 0;
-time_since = 300;
-definitive = 0;
+
 
 powerup1_countdown = irandom_range(1200,1800);
 
 
+global.allcanhitplayer = 1;
+global.allCanHitPlayerCountdown = 165;
 
+global.asteroidLeft = 0;
+global.wave = 0;
+global.asteroidToSpawn = 4;
+
+can_start_next_wave = 1;
+countdownToNextWave = 180;

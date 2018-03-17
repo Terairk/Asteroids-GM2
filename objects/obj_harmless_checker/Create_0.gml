@@ -3,6 +3,7 @@
 if (distance_to_object(obj_player) > 200)
 	{
 	
-		instance_create_depth(id.x,id.y, 0, obj_asteroid)
+		instance_create_depth(id.x,id.y, 0, obj_asteroid);
+		global.asteroidLeft += 4;
 		instance_destroy(id);
 	}	

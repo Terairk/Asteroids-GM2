@@ -9,11 +9,3 @@ if (can_damage_player == 0)
 	}
 }
 
-if (global.allcanhitplayer == 0)
-{
-	global.allCanHitPlayerCountdown -= 1;
-	if (global.allCanHitPlayerCountdown <= 0)
-	{
-		global.allcanhitplayer = 1;
-	}
-}

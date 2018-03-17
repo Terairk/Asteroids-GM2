@@ -1,46 +1,12 @@
-/// @description Insert description here
-// You can write your code in this editor
-global.p_direction = image_angle+90;
-speed = max(speed - 0.01, 0);
+
+//global.p_direction = image_angle+90;
+speed = max(speed - 0.03, 0);
 if(countdown <= 0)
 {
 	global.canshoot = 1;
 }
 countdown -= 1;
 
-
-switch (global.lifes)
-{
-	case  5:
-		obj_player.image_index = 0;
-		break;
-	
-	case 4:
-		obj_player.image_index = 0;
-		instance_destroy(instance_position(192,32,obj_lives));
-		break;
-	
-	case 3:
-		obj_player.image_index = 0;
-		instance_destroy(instance_position(160,32,obj_lives));
-		break;
-	
-	case 2:
-		obj_player.image_index = 0;
-		instance_destroy(instance_position(128,32,obj_lives));
-		break;
-	
-	case 1:
-		obj_player.image_index = 0;
-		instance_destroy(instance_position(96,32,obj_lives));
-		break;
-	
-	case 0:
-		obj_player.visible = 0;
-		instance_destroy(instance_position(64,32,obj_lives));
-		break;
-		
-}
 
 if(global.lifes <= 0)
 {
@@ -67,10 +33,17 @@ if (global.cantilt == 0)
 	}
 }
 
-if (speed >  5) 
+if (speed >  7.5) 
 {
-speed = 5;
+speed = 7.5;
 }
+
+if (up_key_pressed == 0)
+{
+	obj_player.image_index = 0;
+	
+}
+up_key_pressed = 0;
 
 
 
