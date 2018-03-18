@@ -3,9 +3,13 @@ string_score = "Score: " + string(global.points);
 //tring_lives = "Lives: " + string(global.lifes);
 //string_time = "Time since last asteroid: " + string(definitive) + " frames";
 
-draw_text_color(787, 32, string_score,c_orange,c_yellow,c_orange,c_yellow,255);
+draw_text_ext_transformed_color(787, 0, string_score,1, 1920,2,2,0,c_orange,c_yellow,c_orange,c_yellow,255);
 
-
+if (global.lifes <= 0)
+{
+	end_of_game = "You've Survived To Wave " + string(global.wave);
+	draw_text_ext_transformed_color(360,540, end_of_game, 1, 1280, 5, 5, 0, c_orange, c_yellow, c_yellow, c_orange, 255);
+}
 
 
 

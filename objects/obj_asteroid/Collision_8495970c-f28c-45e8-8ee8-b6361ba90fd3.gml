@@ -4,7 +4,7 @@
 
 if (can_damage_player == 1 and global.allcanhitplayer == 1)
 {
-	effect_create_above(ef_explosion, x, y, 2, c_orange);
+	effect_create_above(ef_spark, x, y, 1, c_orange);
 	global.lifes -= 1;
 	obj_player.x = 960;
 	obj_player.y = 540;

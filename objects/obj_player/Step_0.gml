@@ -13,10 +13,7 @@ if (shoot_countdown <= 0)
 
 
 
-if(global.lifes <= 0)
-{
-	game_restart();
-}
+
 
 
 if (can_get_powerup == 0)
