@@ -1,10 +1,19 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Display Points & Debug Info
 string_score = "Score: " + string(global.points);
 //tring_lives = "Lives: " + string(global.lifes);
 //string_time = "Time since last asteroid: " + string(definitive) + " frames";
 
 draw_text_color(787, 32, string_score,c_orange,c_yellow,c_orange,c_yellow,255);
+
+
+
+
+
+
+
+
+//draw_text(512,256, string(obj_player.alarm[2]));
+//draw_text(522,512, string(global.allcanhitplayer));
 //draw_text(256,256,string(global.wave));
 //draw_text(512,256,string(global.asteroidToSpawn));
 //draw_text(768, 256, string(global.asteroidLeft));

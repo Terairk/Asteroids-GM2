@@ -20,6 +20,7 @@ if (can_damage_player == 1 and global.allcanhitplayer == 1)
 	obj_player.visible = 0;
 	global.flashing_speed = 30;
 	obj_player.alarm[0] = global.flashing_speed;
+	draw.alarm[1] = 200;
 	
 	
 }

@@ -7,21 +7,16 @@ if (global.asteroidLeft == 0 and can_start_next_wave == 1)
 	can_start_next_wave = 0;
 	
 	alarm[0] = room_speed*3;
-	
+	// wait 3 seconds to start_next_wave after last asteroid has been killed
 }
 
 
 
 
-powerup1_countdown -= 1;
-if (powerup1_countdown <= 0)
+if (alarm[2] == -1) // if alarm isn't activated to prevent overlap preventing it from spawning
 {
-	instance_create_depth(irandom_range(124,924), irandom_range(68,668), 0 , obj_powerup_0);
-	powerup1_countdown = irandom_range(2400,3600);
+	alarm[2] = irandom_range(powerup_lower_limit, powerup_upper_limit);
 }
-
-
-
 
 
 

@@ -8,7 +8,7 @@ bullet.speed = 15;
 bullet.image_angle = image_angle+90;
 bullet.direction = image_angle+90;
 audio_play_sound(shooting, 100, false);
-countdown = shoot_speed;
+shoot_countdown = shoot_speed;
 global.canshoot = 0;
 }
                

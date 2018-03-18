@@ -1,3 +1,5 @@
+/// @description onDeath Flashing - Visible
+
 obj_player.visible = 1;
 global.flashing_speed -= 2.5;
 obj_player.alarm[1] = global.flashing_speed;

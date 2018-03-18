@@ -1,11 +1,16 @@
 
+
+
 //global.p_direction = image_angle+90;
 speed = max(speed - 0.03, 0);
-if(countdown <= 0)
+
+shoot_countdown -= 1;
+if (shoot_countdown <= 0)
 {
 	global.canshoot = 1;
+	shoot_countdown = shoot_speed;
 }
-countdown -= 1;
+
 
 
 if(global.lifes <= 0)
@@ -33,9 +38,9 @@ if (global.cantilt == 0)
 	}
 }
 
-if (speed >  7.5) 
+if (speed >  8) 
 {
-speed = 7.5;
+speed = 8;
 }
 
 if (up_key_pressed == 0)
@@ -44,6 +49,16 @@ if (up_key_pressed == 0)
 	
 }
 up_key_pressed = 0;
+
+
+
+if (alarm[9] == -1)
+{
+	thisx = x;
+	thisy = y;
+	
+	alarm[9] = 5;
+}
 
 
 

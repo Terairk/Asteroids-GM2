@@ -1,11 +1,13 @@
+// SetUp For Player
+
 
 shoot_speed = 11;
 image_index = 0;
 global.points = 0;
 global.lifes = 5;
-countdown = shoot_speed;
+global.canshoot = 1;   
+shoot_countdown = shoot_speed;
 
-deathcountdown = 360;
 can_get_powerup = 1;
 countdown_powerup = 120;
 global.cantilt = 1;
@@ -24,3 +26,6 @@ start_countdown = 60;
 global.flashing_speed = 30;
 up_key_pressed = 0;
 
+audio_play_sound(moving, 10, true);
+
+have_smoke_effect = 1;

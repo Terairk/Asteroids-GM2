@@ -305,6 +305,25 @@
             }
         },
         {
+            "Key": "5b93fcb8-ab02-4719-9c40-c5db96438a98",
+            "Value": {
+                "id": "15955336-e85c-4211-a228-dad8f051d50b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/moving\/moving.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "5be580bf-ad7f-4f99-a743-1c44e4693158",
             "Value": {
                 "id": "b784539c-1df7-43d3-97e7-cb8bfdfb3202",
