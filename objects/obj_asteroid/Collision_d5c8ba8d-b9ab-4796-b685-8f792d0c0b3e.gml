@@ -1,5 +1,5 @@
 
-effect_create_above(ef_spark, x, y, 1, c_white);
+effect_create_above(ef_spark, x, y, 2, c_white);
 destroy_direction = other.direction;
 instance_destroy(other);
 instance_destroy(id);

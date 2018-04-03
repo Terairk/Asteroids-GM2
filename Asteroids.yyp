@@ -2,7 +2,7 @@
     "id": "28a55549-ab83-43d3-a389-e49befd10690",
     "modelName": "GMProject",
     "mvc": "1.0",
-    "IsDnDProject": false,
+    "IsDnDProject": true,
     "configs": [
         
     ],
